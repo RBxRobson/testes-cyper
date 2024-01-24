@@ -12,5 +12,4 @@ describe('Testes para a home', () => {
         cy.get('button[type="submit"]').click()
         cy.get('.ListaVagas_vagas__gmNZn > li').should('have.length', 1)
     })
-
 })
